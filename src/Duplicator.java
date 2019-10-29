@@ -1,7 +1,7 @@
 public class Duplicator {
 
-    public static void main(String[] arg) {
-
+    public static void main(String[] args) {
+System.out.println( duplicateCounter(20));
     }
 
     /**
@@ -26,8 +26,9 @@ public class Duplicator {
      * 4. Maak de functie duplicateCounter() af zodat de test wel werkt.
      *
      */
-    public int duplicateCounter() {
-
+    public static int duplicateCounter(int numberDuplicate) {
+    int newNumber = numberDuplicate*2;
+    return newNumber;
     }
 
 
